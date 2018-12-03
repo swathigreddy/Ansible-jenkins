@@ -1,0 +1,6 @@
+---
+- hosts: 54.89.212.197
+  roles:
+    - master
+#- name: restart jenkins
+  #service: name=jenkins state=restarted
